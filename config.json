@@ -1,0 +1,39 @@
+{
+  "filters": {
+    "title_keywords_any": [
+      "engineer",
+      "developer",
+      "data",
+      "analyst"
+    ],
+    "locations_any": [
+      "remote",
+      "united states",
+      "usa"
+    ],
+    "excluded_keywords_any": [
+      "director",
+      "senior",
+      "manager",
+      "lead"
+    ]
+  },
+  "sources": [
+    {
+      "name": "GitLab Careers",
+      "type": "greenhouse",
+      "board_token": "gitlab"
+    },
+    {
+      "name": "Notion Careers",
+      "type": "ashby",
+      "organization_key": "notion"
+    },
+    {
+      "name": "Salesforce Careers",
+      "type": "workday",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+      "search_text": "data"
+    }
+  ]
+}
